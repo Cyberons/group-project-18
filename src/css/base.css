@@ -1,6 +1,8 @@
     body {
         font-family: 'Manrope', sans-serif;
+        background-color: #1C2225;
     }
+
     .container {
         width: 335px;
         margin-left: auto;
