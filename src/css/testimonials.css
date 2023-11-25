@@ -21,7 +21,6 @@
 .testimonials-text {
     color: rgba(252, 249, 249, 0.40);
     text-align: center;
-    font-size: 16px;
     font-weight: 400;
     line-height: normal;
     width: 291px;
@@ -83,6 +82,7 @@
 
     .testimonials-text {
         width: 300px;
+        font-size: 16px;
     }
 
     .testimonials-section {
