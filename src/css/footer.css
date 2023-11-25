@@ -1,5 +1,9 @@
 .footer {
-  background-image: ;
+  border-top: 1px solid rgba(252, 249, 249, 0.1);
+}
+
+.footer-wrap {
+  padding: 40px 0 80px;
 }
 
 .footer-menu-list {
