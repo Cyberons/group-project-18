@@ -7,7 +7,7 @@
 }
 
 .footer-menu-list {
-  width: calc((100% - 40px) / 2);
+  width: 124px;
 }
 
 .footer-menu {
@@ -25,9 +25,14 @@
   line-height: 1.28;
   text-transform: uppercase;
 }
+
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+  color: #ecd979;
+}
+
 .footer-text {
   color: #fcf9f9;
-
   font-size: 44px;
   font-weight: 400;
   line-height: 1.22;
@@ -36,8 +41,51 @@
 
 .footer-text-accent {
   color: #ecd979;
-  font-size: 44px;
-  font-weight: 400;
-  line-height: 1.22;
-  letter-spacing: -1.32px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 703px;
+  }
+
+  .footer-text {
+    font-size: 54px;
+    line-height: 1.18;
+    letter-spacing: -1.62px;
+  }
+
+  .footer-wrap {
+    padding: 40px 0;
+    max-width: 521px;
+  }
+  .footer-menu {
+    gap: 25px;
+    margin-bottom: 80px;
+  }
+
+  .footer-menu-list {
+    width: auto;
+  }
+
+  .footer-menu-link {
+    line-height: 1.28;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1082px;
+  }
+  .footer-menu {
+    gap: 25px;
+    margin-bottom: 117px;
+  }
+  .footer-wrap {
+    max-width: 754px;
+  }
+  .footer-text {
+    font-size: 64px;
+    line-height: 1.15;
+    letter-spacing: -1.92px;
+  }
 }
