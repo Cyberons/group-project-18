@@ -60,6 +60,7 @@
     background-image: url(../img/footer/bg-footer-tablet.png);
     background-position: right;
     background-repeat: no-repeat;
+    background-size: contain;
   }
   .background {
     background-image: none;
