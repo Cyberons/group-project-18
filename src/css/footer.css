@@ -47,10 +47,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  /* .container {
-    width: 703px;
-  } */
-
   .footer {
     background-image: url(../img/footer/bg-footer-tablet.png);
     background-position: right;
@@ -82,10 +78,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  /* .container {
-    width: 1082px;
-  } */
-
   .footer {
     background-image: url(../img/footer/bg-footer-desktop.png);
   }
