@@ -1,9 +1,12 @@
 .footer {
   border-top: 1px solid rgba(252, 249, 249, 0.1);
+  background-image: url(../img/footer/bg-footer-mobile.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .footer-wrap {
-  padding: 40px 0 80px;
+  padding: 40px 0 292px;
 }
 
 .footer-menu-list {
@@ -44,8 +47,10 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    width: 703px;
+  .footer {
+    background-image: url(../img/footer/bg-footer-tablet.png);
+    background-position: right;
+    background-repeat: no-repeat;
   }
 
   .footer-text {
@@ -73,9 +78,10 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    width: 1082px;
+  .footer {
+    background-image: url(../img/footer/bg-footer-desktop.png);
   }
+
   .footer-menu {
     gap: 25px;
     margin-bottom: 117px;
