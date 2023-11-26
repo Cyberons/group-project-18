@@ -1,6 +1,120 @@
 .order {
-    max-width: 375px;
-    background-image: url(../img/your-order/bg-mobile.jpg);
+  width: 375px;
+
+   
+    
+    
+    
+}
+
+
+.order-bg {
+background-image: url(../img/your-order/bg-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    width: 375px;
+    height: 550px;
+    margin-bottom: 80px;
+    
+}
+
+.order-img {
+   
+    display: none;
+}
+
+.wrap-order {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.order-title {
+    color: #FCF9F9;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.37;
+        /* 137.5% */
+        letter-spacing: -0.03em;
+        margin-bottom: 40px;
+        max-width: 335px;
+        text-align: left;
+        
+}
+
+.order-title-span {
+color: #ECD979;
+}
+
+.order-form {
+width: 335px;
+}
+
+.wrap-input {
+    margin-bottom: 20px;
+}
+
+.form-input {
+width: 303px; ;
+height: 47px;
+background: transparent;
+outline: transparent;
+padding: 14px 16px;
+border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+}
+
+.form-textarea {
+    width: 303px;
+    height: 196px;
+    border-radius: 8px;
+     border: 1px solid rgba(252, 249, 249, 0.10);
+    padding: 14px 16px;
+    align-items: center;
+    color: rgba(252, 249, 249, 0.50);
+    background-color: transparent;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.02em;
+}
+
+.form-btn {
+    min-width: 145px;
+    height: 49px;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background-color:  transparent;
+    margin-bottom: 80px;
+    color: #FCF9F9;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+}
+
+.form-btn-icon {
+fill: #ECD979;
+margin-left: 10px;
+}
+
+@media screen and (min-width:768) {
+    .container {
+        width: 703px;
+    }
+
+.order-img {
+    display: flex;
+}
+
+
 }
