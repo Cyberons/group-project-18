@@ -1,0 +1,118 @@
+.footer {
+  border-top: 1px solid rgba(252, 249, 249, 0.1);
+}
+.background {
+  background-image: url(../img/footer/bg-footer-mobile.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+.footer-wrap {
+  padding: 40px 0 292px;
+}
+
+.footer-menu-list {
+  width: 124px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  row-gap: 25px;
+  margin-bottom: 40px;
+}
+
+.footer-menu-link {
+  color: #fcf9f9;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+  color: #ecd979;
+}
+
+.footer-text {
+  color: #fcf9f9;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.22;
+  letter-spacing: -1.32px;
+}
+
+.footer-text-accent {
+  color: #ecd979;
+}
+
+@media screen and (min-resolution: 192dpi) {
+  .background {
+    background-image: url(../img/footer/bg-footer-mobile@2x.png);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    background-image: url(../img/footer/bg-footer-tablet.png);
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  .background {
+    background-image: none;
+  }
+  .footer-text {
+    font-size: 54px;
+    line-height: 1.18;
+    letter-spacing: -1.62px;
+  }
+
+  .footer-wrap {
+    padding: 40px 0;
+    max-width: 521px;
+  }
+  .footer-menu {
+    gap: 25px;
+    margin-bottom: 80px;
+  }
+
+  .footer-menu-list {
+    width: auto;
+  }
+
+  .footer-menu-link {
+    line-height: 1.28;
+  }
+  @media screen and (min-resolution: 192dpi) {
+    .footer {
+      background-image: url(../img/footer/bg-footer-tablet@2x.png);
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    background-image: url(../img/footer/bg-footer-desktop.png);
+  }
+
+  .footer-menu {
+    gap: 25px;
+    margin-bottom: 117px;
+  }
+  .footer-wrap {
+    max-width: 754px;
+  }
+  .footer-text {
+    font-size: 64px;
+    line-height: 1.15;
+    letter-spacing: -1.92px;
+  }
+  @media screen and (min-resolution: 192dpi) {
+    .footer {
+      background-image: url(../img/footer/bg-footer-desktop@2x.png);
+    }
+  }
+}
