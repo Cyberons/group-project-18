@@ -1,10 +1,12 @@
 .footer {
   border-top: 1px solid rgba(252, 249, 249, 0.1);
+}
+.background {
   background-image: url(../img/footer/bg-footer-mobile.png);
   background-repeat: no-repeat;
   background-position: bottom;
+  background-size: contain;
 }
-
 .footer-wrap {
   padding: 40px 0 292px;
 }
@@ -27,6 +29,7 @@
   font-weight: 400;
   line-height: 1.28;
   text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-menu-link:hover,
@@ -46,13 +49,21 @@
   color: #ecd979;
 }
 
+@media screen and (min-resolution: 192dpi) {
+  .background {
+    background-image: url(../img/footer/bg-footer-mobile@2x.png);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .footer {
     background-image: url(../img/footer/bg-footer-tablet.png);
     background-position: right;
     background-repeat: no-repeat;
   }
-
+  .background {
+    background-image: none;
+  }
   .footer-text {
     font-size: 54px;
     line-height: 1.18;
@@ -75,6 +86,11 @@
   .footer-menu-link {
     line-height: 1.28;
   }
+  @media screen and (min-resolution: 192dpi) {
+    .footer {
+      background-image: url(../img/footer/bg-footer-tablet@2x.png);
+    }
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -93,5 +109,10 @@
     font-size: 64px;
     line-height: 1.15;
     letter-spacing: -1.92px;
+  }
+  @media screen and (min-resolution: 192dpi) {
+    .footer {
+      background-image: url(../img/footer/bg-footer-desktop@2x.png);
+    }
   }
 }
