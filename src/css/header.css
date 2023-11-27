@@ -1,21 +1,307 @@
-.header {
-  padding: 20px 0;
+
+.svg{
+    fill: #f4f4fd;
+    stroke: #F4F4FD;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
 }
 
-.nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+.social-netwoks-ul{
+    display: flex;
+    align-items: center;
+    
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.social-netwoks-container{
+    display: flex;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.mobile-menu-icon{
+    fill: #1C2225;
+}
+/*----------------HEADER---------------*/
+.header{
+    margin-top: 20px;
+    height: 52px;
+}
+
+.nav{
+    display: flex;
+    padding: 6px 0;
+}
+
+.menu{
+    display: none;
+    list-style: none;
+    margin-left: 60px;
+    padding: 0;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 250ms;
+}
+.menu-link:hover,
+.menu-link:focus{
+    color: #ECD979;
+}
+
+.logo-image{
+    width: 40px;
+    height: 40px;
+}
+
+.menu-link{
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    text-transform: uppercase;
+    transition-duration: 250ms;
+}
+
+.logo-container{
+    display: flex;
+}
+
+.headinfo{
+    display: flex;
+    justify-content: space-between;
+    height: 52px;
+}
+
+.social-networks-ul{
+    display: flex;
+    gap: 12px;
+}
+
+.social-networks-container {
+    display: flex;
+    align-items: center;
+}
+
+.social-networks-ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 12px;
+}
+
+.mobile-menu-button {
+    padding: 6px 0;
+    margin-left: 12px;
+    background-color: transparent; 
+    border: none;
+}
+
+.social-networks-list{
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background: rgba(252, 249, 249, 0.10);
+    transition-duration: 250ms;
+}
+
+.social-networks-list:hover,
+.social-networks-list:focus{
+    border: 1px solid var(--yellow, #ECD979);
+    background-color: transparent;
+}
+
+.phone-number{
+    display: none;
+    padding: 14px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    color: #FCF9F9;
+    text-transform: none;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;   
+    line-height: 20px;
+    text-transform: uppercase;
+    transition-duration: 250ms;
+}
+
+.phone-number:focus,
+.phone-number:hover{
+    border: 1px solid var(--yellow, #ECD979);
+}
+
+/*----------------HEADER---------------*/
+/*-----------------MENU----------------*/
+.mobile-menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 274px;
+    height: 100%;
+    z-index: 11111111;
+    background-color: #ECD979;
+    transform: translateX(100%); 
+    transition: transform 250ms linear;
+    color:#FCF9F9;
+}
+
+.mobile-menu.is-open{
+    transform: translateX(0%); 
+}
+
+.mobile-menu-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.mobile-menu-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.mobile-adress{
+    color: #e8edf0;
+    width: 158px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid rgba(28, 34, 37, 0.10);
+    color: #1C2225;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 116.667% */
+    text-transform: uppercase;
+}
+
+.close-button{
+    width: 36px;
+    height: 36px;
+    border: none;
+    background-color: transparent;
+}
+
+.close-button-icon{
+    fill: #1C2225;
+}
+
+.mobile-menu-nav{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: right;
+}
+
+.mobile-menu-link{
+    color: #1C2225;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    text-transform: uppercase;
+}
+
+.mobile-img-container{
+    background-image: url(../img/header/bg-header-mobile.png);
+    display: flex;
+    width: 274px;
+    height: 251px;  
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: -20px;
+    margin-bottom: -20px;
+}
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-divice-pixel-ratio: 2){
+    .mobile-img-container{
+        background-image: url(../img/header/bg-header-mobile@2x.png);
+        background-size: cover; /* або contain, в залежності від ваших потреб */
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .mobile-menu-button {
+        margin-left: 20px;
+    }
+
+    .mobile-menu{
+        width: 380px;
+    }
+
+    .mobile-img-container{
+        background-image: url(../img/header/bg-header-tablet.png);
+        margin-left: -20px;
+        width: 380px;
+        height: 364px;
+    }
+
+    @media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-divice-pixel-ratio: 2){
+    .mobile-img-container{
+        background-image: url(../img/header/bg-header-tablet@2x.png);
+    }
+}
+
+}
+
+@media screen and (min-width: 1280px) {
+    .menu{
+        display: flex;
+    }
+
+    .mobile-menu-button{
+        display: none;
+    }
+
+    .mobile-menu{
+        display: none;
+    }
+
+    .logo-image{
+        width: 44px;
+        height: 39px;
+    }
+
+    .phone-number{
+        display: flex;
+    }
+
+    .social-networks-container{
+        gap: 20px;
+    }
 }
