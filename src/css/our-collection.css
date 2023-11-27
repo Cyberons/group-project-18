@@ -5,7 +5,7 @@
     /* background-origin: content-box; */
   }
   .our-collection-main-text {
-    color: var(--white, #fcf9f9);
+    color: #FFFFFF, #fcf9f9;
     font-size: 32px;
     font-weight: 500;
     line-height: 1.375;
