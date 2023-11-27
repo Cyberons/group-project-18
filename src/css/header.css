@@ -24,13 +24,6 @@
     display: flex;
 }
 
-.container {
-    max-width: 1558px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin: 0 auto;
-}
-
 .mobile-menu-icon{
     fill: #1C2225;
 }
