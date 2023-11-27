@@ -1,5 +1,7 @@
 .about-section{
     padding-bottom: 62px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-image: url('../img/about-us/bg-about-section-mobile.png');
     background-repeat: no-repeat;
     background-size: 250px;
@@ -20,10 +22,11 @@
     margin-bottom: 20px;
     font-size: 14px;
     font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.56px;
+    line-height: 1.2;
+    letter-spacing: -0.05em;
     color: rgba(252, 249, 249, 0.40);
 }
+
 
 .description-wrapper{
     margin-bottom: 50px;
@@ -41,13 +44,15 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     .about-section{
         min-width: 704px;
         padding-bottom: 50px;
+        padding-left: 32px;
+        padding-right: 32px;
         background-image: url('../img/about-us/bg-about-section-tablet.png');
     }
 
     .about-section-description{
         width: 704px;
         font-size: 16px;
-        letter-spacing: -0.64px;
+        letter-spacing: -0.05em;
     }
 
     .description-wrapper{
@@ -73,7 +78,11 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px){
 
     .about-section{  
         padding-bottom: 80px;
+        padding-left: 100px;
+        padding-right: 100px;
         background-image: url('../img/about-us/bg-about-section-desktop.png');
+        background-size: 385px;
+        background-position: 100% 100%;
     }
 
     .about-section-wrapper{
@@ -95,8 +104,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px){
 screen and (min-resolution: 2dppx) and (min-width: 1280px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1280px){
     .about-section {
-        background-image:url('../img/about-us/bg-about-section-desktop@2x.png');
-            background-size: 385px;
-            background-position: 100% 100%;
-        }
+        background-image:url('../img/about-us/bg-about-section-desktop@2x.png');   
     }
+}
