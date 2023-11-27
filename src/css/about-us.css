@@ -27,6 +27,9 @@
     color: rgba(252, 249, 249, 0.40);
 }
 
+.about-section-img{
+    border-radius: 4px;
+}
 
 .description-wrapper{
     margin-bottom: 50px;
