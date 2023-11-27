@@ -9,16 +9,13 @@
         margin-right: auto;
     }
 
-  header
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width:768px) {
         .container {
             width: 703px;
         }
     }
-    
-  header
-    @media screen and (min-width: 1280px) {
 
+    @media screen and (min-width:1280px) {
         .container {
            width: 1082px;
         }
