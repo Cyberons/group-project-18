@@ -1,16 +1,18 @@
 /* GENERAL STYLES */
 
 .hero {
+    max-width: 1082px;
     margin-top: 60px;
     margin-bottom: 80px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.hero-container{
+.mobile-hero-container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .title-with button{
@@ -52,6 +54,12 @@
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
+    transition: border, 250ms, linear ;
+}
+
+.order-button:hover,
+.order-button:focus{
+    border: 1px solid var(--yellow, #ECD979);
 }
 
 .hero-img{
@@ -75,7 +83,7 @@
     .emblem {
         display: flex;
         flex-direction: column;
-        gap: 679px;
+        justify-content: space-between;
         margin-top: -26px;
     }
 
@@ -114,7 +122,12 @@
         margin-bottom: 40px;
     }
 
-    .hero-container {
+    .hero-container{
+        display: flex;
+        column-gap: 40px;
+    }
+
+    .mobile-hero-container{
         align-items: flex-start;
     }
 
@@ -136,7 +149,7 @@
        margin-top: -33px;
        margin-right: -9px;
        margin-left: -9px;
-
+       margin-bottom: -36px;
     }
 
 
@@ -146,14 +159,16 @@
 
 @media screen and (min-width:1280px){
     .hero {
+            max-width: 1082px;
             display: flex;
             justify-content: space-between;
-            margin-left: 100px;
-            margin-right: 100px;
             margin-top: 106px;
             margin-bottom: 150px;
+            margin-right: auto;
+            margin-left: auto;
     }
-    .hero-container{
+
+    .mobile-hero-container{
         flex-direction: row-reverse;
         column-gap: 40px;
     }
