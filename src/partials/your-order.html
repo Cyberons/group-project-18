@@ -1,21 +1,7 @@
+<section class="order-bg"></section>
 <section class="order">
-  <div class="order-bg"></div>
   <div class="container">
     <div class="order-container">
-      <img
-        src="./img/your-order/order-tablet.jpg"
-        srcset="
-          ./img/your-order/order-desktop.jpg     524w,
-          ./img/your-order/order-desktop@2x.jpg 1048w,
-          ./img/your-order/order-tablet.jpg      638w,
-          ./img/your-order/order-tablet@2x.jpg  1276w
-        "
-        sizes="(min-width: 768px) 638px,(min-width: 1280px) 524px"
-        alt="a girl in an embroidered dress"
-        width="524"
-        height="521"
-        class="order-img"
-      />
       <div class="wrap-order">
         <h2 class="order-title">
           <span class="order-title-span">Your order</span> is our priority:
@@ -55,6 +41,20 @@
           </button>
         </form>
       </div>
+      <img
+        src="./img/your-order/order-tablet.jpg"
+        srcset="
+          ./img/your-order/order-desktop.jpg     524w,
+          ./img/your-order/order-desktop@2x.jpg 1048w,
+          ./img/your-order/order-tablet.jpg      638w,
+          ./img/your-order/order-tablet@2x.jpg  1276w
+        "
+        sizes="(max-width: 768px) 638px,(min-width: 1280px) 524px"
+        alt="a girl in an embroidered dress"
+        width="638"
+        height="521"
+        class="order-img"
+      />
     </div>
   </div>
 </section>
