@@ -1,7 +1,5 @@
 .about-section{
     padding-bottom: 62px;
-    padding-left: 20px;
-    padding-right: 20px;
     background-image: url('../img/about-us/bg-about-section-mobile.png');
     background-repeat: no-repeat;
     background-size: 250px 408px;
@@ -18,7 +16,7 @@
 }
 
 .about-section-description{
-    width: 335px;
+    width: 325px;
     margin-bottom: 20px;
     font-size: 14px;
     font-weight: 400;
@@ -47,15 +45,13 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     .about-section{
         min-width: 704px;
         padding-bottom: 50px;
-        padding-left: 32px;
-        padding-right: 32px;
         background-image: url('../img/about-us/bg-about-section-tablet.png');
         background-size: 369px 484px;
         background-position: 100% 100%;
     }
 
     .about-section-description{
-        width: 704px;
+        width: 685px;
         font-size: 16px;
         letter-spacing: -0.05em;
     }
@@ -82,8 +78,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px){
 
     .about-section{  
         padding-bottom: 80px;
-        padding-left: 100px;
-        padding-right: 100px;
         background-image: url('../img/about-us/bg-about-section-desktop.png');
         background-size: 385px 484px;
         background-position: 100% 100%;
@@ -97,7 +91,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px){
     }
 
     .about-section-description{
-        width: 436px;
+        width: 426px;
     }
 
 }

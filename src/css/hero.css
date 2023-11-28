@@ -65,7 +65,6 @@
 .hero-img{
     border-radius: 4px;
     width: 335px;
-    height: 545px;
 }
 
 .emblem{
@@ -133,7 +132,7 @@
 
     .hero-img {
         width: 413px;
-        height: 575px;
+
     }    
 
     .order-button{
@@ -168,6 +167,10 @@
             margin-left: auto;
     }
 
+    .hero-container {
+        column-gap: 0px;
+    }
+
     .mobile-hero-container{
         flex-direction: row-reverse;
         column-gap: 40px;
@@ -175,7 +178,6 @@
 
     .hero-img {
         width: 392px;
-        height: 545px;
     }
 
     .hero-title {
