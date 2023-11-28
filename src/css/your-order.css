@@ -139,18 +139,15 @@ margin-left: 10px;
     padding-right: 32px;
     display: flex;
     flex-direction: column;
-    position: absolute;
     left: 0;
-   width: 958px;
-   height: 1340px;
-   overflow: hidden;
+    width: 958px;
+    overflow: hidden;
  }   
 
  .order-img {
     display: flex;
     order: 1;
     width: 638px;
-    height: 521;
  }
 
 .wrap-order {
