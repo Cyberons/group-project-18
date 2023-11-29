@@ -1,16 +1,15 @@
 .order {
-    padding-bottom: 80px;  
+    padding-top: 80px;
 }
 
 .order-bg {
-    background-image: url(../img/your-order/bg-mobile.jpg);
+    background-image: url(./img/your-order/bg-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 375px;
     height: 550px;
-    margin-bottom: 80px;
-    
+    margin: 0 auto;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -33,24 +32,23 @@
 
 .order-title {
     color: #FCF9F9;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.37;
-        /* 137.5% */
-        letter-spacing: -0.03em;
-        margin-bottom: 40px;
-        max-width: 335px;
-        text-align: left;
-        
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.37;
+    /* 137.5% */
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+    max-width: 335px;
+    text-align: left;      
 }
 
 .order-title-span {
-color: #ECD979;
+    color: #ECD979;
 }
 
 .order-form {
-width: 335px;
+    width: 335px;
 }
 
 .wrap-input {
@@ -107,8 +105,7 @@ width: 335px;
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.04em;
-    text-transform: uppercase;
-        
+    text-transform: uppercase;      
 }
 
 .form-btn:hover,
@@ -129,6 +126,7 @@ width: 335px;
     background-image: url(../img/your-order/bg-order-tablet.png);
     background-repeat: no-repeat;
     background-position: bottom left;
+    padding-top: 100px;
 }
 
  .order-container {
@@ -175,7 +173,6 @@ width: 335px;
     background-image: url(../img/your-order/bg-tablet.jpg);
     width: 768px;
     height: 776px;
-    margin-bottom: 100px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -202,9 +199,9 @@ width: 335px;
     }
 
     .order-img {
-    width: 524px;
-    margin-left: 0;
-    height: 521px;
+        width: 524px;
+        margin-left: 0;
+        margin-bottom: 199px;
     }
 
     .wrap-order {
@@ -212,11 +209,14 @@ width: 335px;
     }
 
     .order-bg {
-    background-image: url(../img/your-order/bg-desktop.jpg);
-    width: 100%;
-    height: 776px;
-    margin-bottom: 150px;
+        background-image: url(../img/your-order/bg-desktop.jpg);
+        width: 100%;
+        height: 776px;
  }
+
+    .order {
+        padding-top: 150px;
+    }
 
     @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),

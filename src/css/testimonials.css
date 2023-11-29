@@ -47,14 +47,14 @@
     margin-bottom: 20px;
 }
 
-.testimonials-img {
-    position: absolute;
-    top: -24px;
-    box-shadow: 0px 1px 4px 0px rgba(16, 24, 40, 0.06);
+    .testimonials-img {
+        position: absolute;
+        top: -24px;
+        box-shadow: 0px 1px 4px 0px rgba(16, 24, 40, 0.06);
    }
 
     .testimonials-section {
-        padding-bottom: 80px;
+        padding: 80px 0;
     }
 
     .testimonials-text {
@@ -77,7 +77,7 @@
     }
 
     .testimonials-section {
-        margin: 100px 0;
+        padding: 100px 0;
     }
 
     .addition-container-second {
@@ -99,12 +99,9 @@
 }
 
 @media screen and (min-width:1280px) {
-    .container {
-       width: 1082px;
-    }
 
     .testimonials-section {
-        margin: 150px 0;
+        padding: 150px 0;
     }
 
     .addition-container-third {
