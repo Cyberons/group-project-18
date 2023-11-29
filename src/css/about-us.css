@@ -1,5 +1,6 @@
 .about-section{
     padding-bottom: 62px;
+    margin-bottom: 18px;
     background-image: url('../img/about-us/bg-about-section-mobile.png');
     background-repeat: no-repeat;
     background-size: 250px 408px;
@@ -45,6 +46,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     .about-section{
         min-width: 704px;
         padding-bottom: 50px;
+        margin-bottom: 50px;
         background-image: url('../img/about-us/bg-about-section-tablet.png');
         background-size: 369px 484px;
         background-position: 100% 100%;
@@ -53,7 +55,6 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     .about-section-description{
         width: 685px;
         font-size: 16px;
-        letter-spacing: -0.05em;
     }
 
     .description-wrapper{
@@ -78,6 +79,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px){
 
     .about-section{  
         padding-bottom: 80px;
+        margin-bottom: 70px;
         background-image: url('../img/about-us/bg-about-section-desktop.png');
         background-size: 385px 484px;
         background-position: 100% 100%;
