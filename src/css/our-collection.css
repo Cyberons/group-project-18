@@ -87,6 +87,7 @@
   
   @media screen and (min-width: 1280px) {
     .our-collection {
+
       background-image: url(./img/our-collection/desktop-ornament.png);
       background-repeat: no-repeat;
       padding-top: 70px;
@@ -116,6 +117,7 @@
   }
   @media (min-resolution: 192dpi) and (min-width: 1280px) {
     .our-collection {
+
       background-image: url(./img/our-collection/desktop-ornament@2x.png);
       background-repeat: no-repeat;
     }
