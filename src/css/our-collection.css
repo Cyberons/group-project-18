@@ -105,20 +105,17 @@
   }
   @media (min-resolution: 192dpi) and (max-width: 767px) {
     .our-collection {
-      background-image: url(../img/our-collection/mobile-ornament@2x.png);
+
       background-repeat: no-repeat;
     }
   }
   @media (min-resolution: 192dpi) and (min-width: 768px) {
     .our-collection {
-      background-image: url(../img/our-collection/tablet-ornament@2x.png);
       background-repeat: no-repeat;
     }
   }
   @media (min-resolution: 192dpi) and (min-width: 1280px) {
     .our-collection {
-
-      background-image: url(../img/our-collection/desktop-ornament@2x.png);
       background-repeat: no-repeat;
     }
   }
