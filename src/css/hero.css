@@ -2,8 +2,8 @@
 
 .hero {
     max-width: 1082px;
-    margin-top: 60px;
-    margin-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 80px;
     margin-right: auto;
     margin-left: auto;
 }
