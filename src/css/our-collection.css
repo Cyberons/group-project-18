@@ -2,7 +2,7 @@
   margin-bottom: 80px;
 }
 .our-collection {
-    background-image: url(../img/our-collection/mobile-ornament1x.png);
+    background-image: url(./img/our-collection/mobile-ornament1x.png);
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: 291px;
@@ -78,7 +78,7 @@
     }
   
     .our-collection {
-      background-image: url(../img/our-collection/tablet-ornament1x.png);
+      background-image: url(./img/our-collection/tablet-ornament1x.png);
       background-repeat: no-repeat;
       background-position: left top 221px;
     }
@@ -88,7 +88,7 @@
   
   @media screen and (min-width: 1280px) {
     .our-collection {
-      background-image: url(../img/our-collection/desktop-ornament1x.png);
+      background-image: url(./img/our-collection/desktop-ornament1x.png);
       background-repeat: no-repeat;
     }
     .our-collection-list {
@@ -104,19 +104,19 @@
   }
   @media (min-resolution: 192dpi) and (min-width: 375px) {
     .our-collection {
-      background-image: url(../img/our-collection/mobile-ornament2x.png);
+      background-image: url(./img/our-collection/mobile-ornament2x.png);
       background-repeat: no-repeat;
     }
   }
   @media (min-resolution: 192dpi) and (min-width: 768px) {
     .our-collection {
-      background-image: url(../img/our-collection/tablet-ornament2x.png);
+      background-image: url(./img/our-collection/tablet-ornament2x.png);
       background-repeat: no-repeat;
     }
   }
   @media (min-resolution: 192dpi) and (min-width: 1280px) {
     .our-collection {
-      background-image: url(../img/our-collection/desktop-ornament2x.png);
+      background-image: url(./img/our-collection/desktop-ornament2x.png);
       background-repeat: no-repeat;
     }
   }

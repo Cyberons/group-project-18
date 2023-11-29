@@ -1,7 +1,6 @@
 /* GENERAL STYLES */
 
 .hero {
-    max-width: 1082px;
     margin-top: 60px;
     margin-bottom: 80px;
     margin-right: auto;
@@ -156,7 +155,6 @@
 
 @media screen and (min-width:1280px){
     .hero {
-            max-width: 1082px;
             display: flex;
             justify-content: space-between;
             margin-top: 106px;
