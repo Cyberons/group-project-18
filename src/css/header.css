@@ -29,8 +29,7 @@
 }
 /*----------------HEADER---------------*/
 .header{
-    margin-top: 20px;
-    height: 52px;
+    padding-top: 20px;
 }
 
 .nav{
@@ -76,7 +75,6 @@
 .headinfo{
     display: flex;
     justify-content: space-between;
-    height: 52px;
 }
 
 .social-networks-ul{

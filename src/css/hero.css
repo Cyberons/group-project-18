@@ -1,8 +1,9 @@
 /* GENERAL STYLES */
 
 .hero {
-    margin-top: 60px;
-    margin-bottom: 80px;
+    max-width: 1082px;
+    padding-top: 60px;
+    padding-bottom: 80px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -14,9 +15,9 @@
     justify-content: center;
 }
 
-.title-with button{
+/* .title-with button{
     display: flex;
-}
+} */
 
 .hero-title {
     color: #FCF9F9;
@@ -34,7 +35,7 @@
 
 
 .order-button{
-    display: inline-flex;
+    display: flex;
     width: 155px;
     height: 49px;
     padding: 14px 36px;
@@ -51,8 +52,8 @@
     letter-spacing: -0.56px;
     text-transform: uppercase;
     margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 110px;
+    margin-left: 70px;
     transition: border, 250ms, linear ;
 }
 
@@ -106,8 +107,8 @@
     .hero {
         display: flex;
         justify-content: space-between;
-        margin-top: 106px;
-        margin-bottom: 100px;
+        padding-top: 106px;
+        padding-bottom: 100px;
     } 
 
     .hero-title{
@@ -147,9 +148,6 @@
        margin-left: -9px;
        margin-bottom: -36px;
     }
-
-
-
 }
 
 
@@ -157,8 +155,8 @@
     .hero {
             display: flex;
             justify-content: space-between;
-            margin-top: 106px;
-            margin-bottom: 150px;
+            padding-top: 102px;
+            padding-bottom: 150px;
             
     }
 
