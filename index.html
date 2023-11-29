@@ -20,10 +20,12 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/group-project-18/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/group-project-18/assets/index-d87d5c81.css">
+    <link rel="stylesheet" href="/group-project-18/assets/index-656fbb11.css">
   </head>
   <body>
-    <header class="header">
+    <!-- HEADER -->
+
+<header class="header">
     <div class="headinfo container">
         <nav class="nav">
             <div class="logo-container">
@@ -31,16 +33,16 @@
             </div>
             <ul class="menu">
                 <li class="menu-list">
-                    <a href="" class="menu-link">about us</a>
+                    <a href="#about-us" class="menu-link">about us</a>
                 </li>
                 <li class="menu-list">
-                    <a href="" class="menu-link"> our collection</a>
+                    <a href="#collection" class="menu-link"> our collection</a>
                 </li>
                 <li class="menu-list">
-                    <a href="" class="menu-link">custumer order</a>
+                    <a href="#customer-order" class="menu-link">custumer order</a>
                 </li>
                 <li class="menu-list">
-                    <a href="" class="menu-link">testimonials</a>
+                    <a href="#testimonials" class="menu-link">testimonials</a>
                 </li>
             </ul>
         </nav>
@@ -73,7 +75,7 @@
                     </li>
                 </ul>
             </div>
-           <button class="mobile-menu-button">
+           <button class="mobile-menu-button" type="button">
                 <svg width="36" height="24" class="mobile-menu-icon">
                     <use href="/group-project-18/assets/sprite-c360389f.svg#icon-menu"></use>
                 </svg>
@@ -81,7 +83,9 @@
         </div> 
 </header>
     <main>
-      <section class="hero">
+      <!-- HERO -->
+
+<section class="hero">
   <div class="hero-container container">
     <div class="mobile-hero-container">
       <div class="title-with button">
@@ -90,17 +94,19 @@
           <span class="ukrainian-title">Ukrainian</span> artistry in every
           stitch.
         </h1>
-        <button class="order-button" type="button">
+        <a href="#customer-order" class="order-button">
           order
           <svg><use href="/group-project-18/assets/sprite-c360389f.svg#icon-pointer"></use></svg>
-        </button>
+        </a>
       </div>
       <img
         class="hero-img"
         srcset="/group-project-18/assets/girl-mobile-3fcc5adc.jpg 335w, /group-project-18/assets/girl-mobile@2x-9d4d08c9.jpg 670w, /group-project-18/assets/girl-tablet-6370ecf4.jpg 413w, /group-project-18/assets/girl-tablet@2x-9f4546ad.jpg 826w, /group-project-18/assets/girl-desktop-7a74546a.jpg 392w, /group-project-18/assets/girl-desktop@2x-b0617071.jpg 784w"
         src="/group-project-18/assets/girl-desktop-7a74546a.jpg"
-        sizes="(min-width: 1280px) 392px, (min-width: 768px) 413px, (max-width: 767px) 335px"
+        sizes="(min-width: 768px) 413px, (max-width: 767px) 335px, (min-width: 1280px) 392px"
         alt="front-girl"
+        width="335"
+        height="545"
       />
     </div>
     <div class="emblem">
@@ -120,7 +126,9 @@
   </div>
 </section>
 
-      <section class="about-section">
+      <!-- ABOUT-US -->
+
+<section class="about-section" id="about-us">
   <div class="container">
     <div class="about-section-wrapper">
       <div class="description-wrapper">
@@ -149,6 +157,8 @@
             media="(min-width: 1280px)"
             srcset="/group-project-18/assets/vyshyvanka-desktop-e94b447f.jpg 1x, /group-project-18/assets/vyshyvanka-desktop@2x-7aa8289d.jpg 2x"
             type="image/jpg"
+            width="594"
+            height="545"
           />
           <source
             media="(max-width: 767px)"
@@ -159,11 +169,15 @@
             media="(min-width: 768px)"
             srcset="/group-project-18/assets/vyshyvanka-tablet-a302d796.jpg 1x, /group-project-18/assets/vyshyvanka-tablet@2x-51506d86.jpg 2x"
             type="image/jpg"
+            width="704"
+            height="545"
           />
           <img
             class="about-section-img"
             src="/group-project-18/assets/vyshyvanka-mobile-dd294b14.jpg"
             alt="Vyshyvanka"
+            width="335"
+            height="499"
           />
         </picture>
       </div>
@@ -171,17 +185,17 @@
   </div>
 </section>
 
-      <section class="our-collection" id="collection">
+      <!-- OUR COLLECTION -->
+
+<section class="our-collection" id="collection">
   <div class="container our-collection-container">
     <h2 class="our-collection-main-text">Our collection</h2>
     <ul class="our-collection-list">
       <li class="our-collection-item">
         <img
           class="our-collection-photo"
-          srcset="/group-project-18/assets/august-mobile-3803d78b.jpg 335w, /group-project-18/assets/august-mobile@2x-22f1e032.jpg 670w, /group-project-18/assets/august-tablet-01551811.jpg 342w, /group-project-18/assets/august-tablet@2x-4d280806.jpg 684w, /group-project-18/assets/august-desktop-1a9ca649.jpg 400w, /group-project-18/assets/august-desktop@2x-85621b48.jpg 800w"
-          sizes=" (min-width: 375px) 335px,
-                      (min-width: 768px) 342px,
-                      (min-width: 1280px) 400px
+          srcset="/group-project-18/assets/august-mobile-3803d78b.jpg 335w, /group-project-18/assets/august-mobile@2x-22f1e032.jpg 670w, /group-project-18/assets/august-tablet-01551811.jpg 342w, /group-project-18/assets/august-tablet@2x-4d280806.jpg 684w, /group-project-18/assets/august-desktop-1a9ca649.jpg 347w, /group-project-18/assets/august-desktop@2x-85621b48.jpg 694w"
+          sizes=" (max-width: 767px) 335px, (min-width: 768px) 342px, (min-width: 1280px) 347px
                           "
           src="/group-project-18/assets/august-mobile-3803d78b.jpg"
           alt="August Poltava"
@@ -271,8 +285,10 @@
   </div>
 </section>
 
-      <section class="order-bg"></section>
-<section class="order">
+      <!-- ORDER -->
+
+<section class="order-bg"></section>
+<section class="order" id="customer-order">
   <div class="container">
     <div class="order-container">
       <div class="wrap-order">
@@ -327,9 +343,9 @@
   </div>
 </section>
 
-      <!-- Testimonials -->
+      <!-- TESTIMONIALS -->
 
-<section class="testimonials-section">
+<section class="testimonials-section" id="testimonials">
   <div class="container">
     <h2 class="testimonials-paragraph">Testimonials</h2>
     <div class="common-div">
@@ -406,14 +422,16 @@
 </section>
 
     </main>
-    <footer class="footer">
+    <!-- FOOTER -->
+
+<footer class="footer">
   <div class="container ">
     <div class="footer-wrap background">
       <ul class="footer-menu">
-        <li class="footer-menu-list"><a class="footer-menu-link" href="#">About us</a></li>
-        <li class="footer-menu-list"><a class="footer-menu-link" href="#">Our collection</a></li>
-        <li class="footer-menu-list"><a class="footer-menu-link" href="#">Customer order</a></li>
-        <li class="footer-menu-list"><a class="footer-menu-link" href="#">Testimonials</a></li>
+        <li class="footer-menu-list"><a class="footer-menu-link" href="#about-us">About us</a></li>
+        <li class="footer-menu-list"><a class="footer-menu-link" href="#collection">Our collection</a></li>
+        <li class="footer-menu-list"><a class="footer-menu-link" href="#customer-order">Customer order</a></li>
+        <li class="footer-menu-list"><a class="footer-menu-link" href="#testimonials">Testimonials</a></li>
       </ul>
       <p class="footer-text">A touch of <span class="footer-text-accent"> Ukrainian </span> culture in every embroidery
       </p>
@@ -423,6 +441,9 @@
 </footer>
 
     
+    
+    <!-- MOBILE MENU -->
+
     <div class="mobile-menu">
       <div class="mobile-menu-container">
         <div class="mobile-menu-top">
@@ -440,16 +461,16 @@
         <nav class="mobile-nav">
           <ul class="mobile-menu-nav">
             <li class="mobile-menu-list">
-              <a href="" class="mobile-menu-link">about us</a>
+              <a href="#about-us" class="mobile-menu-link">about us</a>
             </li>
             <li class="menu-list">
-              <a href="" class="mobile-menu-link"> our collection</a>
+              <a href="#collection" class="mobile-menu-link"> our collection</a>
             </li>
             <li class="menu-list">
-              <a href="" class="mobile-menu-link">custumer order</a>
+              <a href="#customer-order" class="mobile-menu-link">custumer order</a>
             </li>
             <li class="menu-list">
-              <a href="" class="mobile-menu-link">testimonials</a>
+              <a href="#testimonials" class="mobile-menu-link">testimonials</a>
             </li>
           </ul>
         </nav>
