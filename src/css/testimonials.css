@@ -31,7 +31,6 @@
 }
 
 .addition-container {
-    display: flex;
     padding: 0 18px 18px 18px;
     border-radius: 4px;
     border: 1px solid rgba(252, 249, 249, 0.10);
@@ -80,8 +79,12 @@
         padding: 100px 0;
     }
 
+    .addition-container {
+        padding-bottom: 39px;
+    }
+
     .addition-container-second {
-        display: flex;
+        display: block;
         opacity: 1;
         padding: 0 18px 18px 18px;
         border-radius: 4px;
@@ -104,8 +107,12 @@
         padding: 150px 0;
     }
 
+    .addition-container {
+        padding-bottom: 39px;
+    }
+
     .addition-container-third {
-        display: flex;
+        display: block;
         opacity: 1;
         padding: 0 18px 18px 18px;
         border-radius: 4px;
@@ -113,7 +120,7 @@
     }
 
     .addition-container-second {
-        display: flex;
+        display: block;
         opacity: 1;
         padding: 0 18px 18px 18px;
         border-radius: 4px;
